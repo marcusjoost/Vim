@@ -30,10 +30,12 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+if !exists("g:syntax_on")
+	syntax enable
+endif
+
 set number
-syntax on
 set ruler
-syntax enable
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
