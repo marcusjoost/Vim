@@ -14,6 +14,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'valloric/youcompleteme'
 Plugin 'rosenfeld/conque-term'
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -44,3 +45,8 @@ colorscheme solarized
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_flow = 1
+
